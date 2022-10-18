@@ -1,10 +1,14 @@
-# Описание задания на 2 спринт
- 
-Описание структуры и порядок выполнения проекта:
+# Task description for 2 sprint
 
-1. `docker_compose` — задача про настройку Nginx, Docker и Django.
-2. `django_api` — задача про реализацию API для выдачи информации о фильме.
+Description of the structure and order of the project:
 
-Напоминаем, что все части работы нужно сдавать на ревью одновременно.
+1. `docker_compose` - a task about setting up Nginx, Docker and Django.
+2. `django_api` - the task of implementing the API for issuing information about the movie.
 
-Успехов!
+We remind you that all parts of the work must be submitted for review at the same time.
+
+Good luck!
+
+# run
+
+Run instructions are in `01_doker_compose/README.md`
