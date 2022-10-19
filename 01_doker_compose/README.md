@@ -25,6 +25,7 @@ docker-compose.
 ## Deploy
 
 - We build the image and run the containers: `docker-compose up -d --build`
-- Migrations will run themselves. Static files are collected by themselves.
+- Collect static files: `docker-compose exec web python manage.py collectstatic --no-input --clear`
+- Apply database migrations: `docker-compose exec web python manage.py migrate --noinput`
 - Create user: `docker-compose exec web python manage.py createsuperuser`
 - Open the browser [admin panel] (http://127.0.0.1/admin/) (http://127.0.0.1/admin/)
