@@ -1,5 +1,5 @@
-django==3.2
-python-dotenv==0.19
+django==3.2.25
+python-dotenv==0.20.0
 psycopg2~=2.9
 django-split-settings==1.1
 pre-commit~=2.15
